@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 1.2rem;
+    background: linear-gradient(to top left, #d1e0de88, #44c9e333);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #2773a5;
+}
+
+.box h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-body {
+    margin: 20px;
+}
+
+.btn{
+    background-color: #b0d6efb5;
+    border: none;
+    font-weight: bold;
+}
+
+.input-field {
+    color: #000000;
+    font-size: 1rem;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 0.8px solid #0000004d;
+}
+
+.error{
+    font-size: 0.8rem;
+    color: #ff0000;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media screen and (min-width: 768px) {
+    .box{
+        width: 50%;
+    }
+}
