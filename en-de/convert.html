@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number to Word</title>
+
+    <link rel="stylesheet" href="../index.css">
+    <script src="./convert.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Convert</h2>
+            <div class="box-body">
+                <form onsubmit="endecrypt(); return false;">
+                    <input class="input-field" type="text" id="encrypt" placeholder="Input message" required />
+
+                    <input class="input-field" type="password" id="password" placeholder="Password" required />
+
+                    <input class="input-field btn" type="submit" value="Convert">
+
+                    <div style="position: relative;">
+                        <input type="password" class="input-field" id="decrypt" placeholder="Output message" readonly />
+                        <input type="checkbox" id="eye" onchange="showPassword()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

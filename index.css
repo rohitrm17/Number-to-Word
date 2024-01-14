@@ -56,6 +56,17 @@ body {
     border-bottom: 0.8px solid #0000004d;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#eye{
+    position: absolute;
+    right: 20px;
+    top: 24px;
+}
+
 .error{
     font-size: 0.8rem;
     color: #ff0000;
